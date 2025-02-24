@@ -10,8 +10,8 @@
 </div>
 
 <div align="center">
-    <img src="https://github-readme-stats.vercel.app/api?username=HgrXKPT&show_icons=true&theme=radical" alt="Anurag's GitHub stats" width="55%">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=HgrXKPT&title_color=ffffff&text_color=ffffff&bg_color=000000&border_color=000000" alt="Top Langs" width="25%">
+    <img src="https://github-readme-stats.vercel.app/api?username=HgrXKPT&show_icons=true&theme=radical" alt="Anurag's GitHub stats" width="60%" >
+    
 </div>
 
 <p align="center">
