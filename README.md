@@ -19,4 +19,4 @@
 </p>
 
 <h2 align="center">📕 Sobre</h2>
-<p align="center">Atualmente, sou estudante de desenvolvimento backend, sempre em busca de aprender e evoluir. Fique à vontade para conectar comigo em minhas redes sociais e acompanhar meus projetos e me dar dicas!</p>
+<p align="left">Atualmente, sou estudante de desenvolvimento backend, sempre em busca de aprender e evoluir. Fique à vontade para conectar comigo em minhas redes sociais e acompanhar meus projetos e me dar dicas!</p>
