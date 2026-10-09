@@ -1,53 +1,76 @@
+<div align="center">
+
 # Higor Estevão
+### Software Developer • React & .NET
 
-**Software Developer | C# / .NET & React**  
-Betim, Minas Gerais, Brasil • [LinkedIn](https://www.linkedin.com/in/higor-estevao/) • [Email](mailto:contatohigorestevao@gmail.com)
+[![Demo Navalha](https://img.shields.io/badge/Demo-Navalha-22c55e?style=for-the-badge&logo=vercel&logoColor=white)](https://navalha-theta.vercel.app/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/higor-estevao/)
+[![Email](https://img.shields.io/badge/Contato-higorestevao02%40hotmail.com-18181b?style=for-the-badge&logo=gmail&logoColor=white)](mailto:higorestevao02@hotmail.com)
 
----
+<br/>
 
-### 📌 Sobre
+<p align="center">
+  Desenvolvedor de software focado em aplicações web modernas e sistemas distribuídos.<br/>
+  Interfaces rápidas, tipadas e acessíveis com <strong>React 19 & TypeScript</strong> no frontend;<br/>
+  microsserviços escaláveis, limpos e resilientes com <strong>.NET 10 & C#</strong> no backend.
+</p>
 
-Desenvolvedor de software com atuação profissional no ecossistema **C# / .NET** e desenvolvimento de aplicações web modernas com **React**.
-
-No backend, foco em arquitetura de microsserviços distribuídos (.NET 10), mensageria assíncrona, integrações transacionais e otimização de bancos relacionais de alta volumetria (SQL Server e PostgreSQL), aplicando Clean Architecture, DDD e testes automatizados.
-
-No frontend, foco em React moderno com TypeScript estrito, arquitetura baseada em componentes funcionais desacoplados, design responsivo, conformidade com acessibilidade (WCAG / axe) e suítes completas de testes unitários e ponta a ponta (Vitest, Testing Library e Playwright).
-
----
-
-### 🚀 Projetos em Destaque
-
-#### [Navalha](https://github.com/HgrXKPT/navalha) — Plataforma de Agendamento Online
-> Sistema de agendamento e gestão para barbearias desenvolvido sob dinâmica de produto: backlog guiado por tickets, revisões por pull request, pipelines de CI e deploy automatizado.
-- **Frontend:** React 19, TypeScript strict, Vite, CSS Modules, Vitest + React Testing Library e Playwright com testes automatizados de acessibilidade (`axe-core`).
-- **Backend & Evolução:** Arquitetura fullstack com .NET 10 Minimal APIs, Entity Framework Core, PostgreSQL, tempo real e tratamento de concorrência.
-- **Status & Demonstração:** [navalha-theta.vercel.app](https://navalha-theta.vercel.app/)
-
-#### [Sands](https://github.com/HgrXKPT/sands) — Sandbox de Crédito & Clean Architecture
-> Implementação de referência de Clean Architecture pura e CQRS em .NET.
-- **Destaques:** Domínio rico, separação estrita de camadas (Domain, Application, Infrastructure e Api), suíte de testes unitários com xUnit e NSubstitute.
-
-#### Experiência Corporativa (Framework Digital / Operação Pague Menos)
-- **Microsserviços em Produção:** Desenvolvimento e manutenção de fluxos críticos de devoluções, reembolsos e gestão financeira integrados a mais de 15 adquirentes e bancos.
-- **Performance de Banco:** Otimização de queries com Entity Framework Core e SQL Server — redução de tempo de execução em consulta crítica de 13s para 82ms (~99,4% de ganho).
-- **Resiliência e Mensageria:** Processamento assíncrono com RabbitMQ e estratégias de cache com Redis em contêineres Docker.
+</div>
 
 ---
 
-### 🛠️ Stack Técnica
+### 🚀 Projeto em Destaque: [Navalha](https://github.com/HgrXKPT/navalha)
 
-| Área | Tecnologias & Ferramentas |
+<div align="center">
+  <a href="https://navalha-theta.vercel.app/">
+    <img src="https://img.shields.io/badge/Status-Em%20Construção-22c55e?style=flat-square&logo=git&logoColor=white" />
+    <img src="https://img.shields.io/badge/Frontend-React%2019%20%7C%20TypeScript-61DAFB?style=flat-square&logo=react&logoColor=black" />
+    <img src="https://img.shields.io/badge/E2E-Playwright%20%2B%20axe--core-45ba4b?style=flat-square&logo=playwright&logoColor=white" />
+    <img src="https://img.shields.io/badge/Backend%20Roadmap-.NET%2010%20%7C%20PostgreSQL-512BD4?style=flat-square&logo=dotnet&logoColor=white" />
+  </a>
+</div>
+
+<br/>
+
+Plataforma de agendamento online e gestão para barbearias, desenvolvida com dinâmica de produto real (backlog por tickets, branch protection, CI contínuo e deploy automático).
+
+- **Frontend:** React 19, TypeScript estrito, Vite, CSS Modules e Tailwind CSS.
+- **Qualidade & Acessibilidade:** Testes unitários com Vitest e testes E2E com Playwright integrados à validação de acessibilidade contínua (`axe-core` para conformidade WCAG 2.1 AA).
+- **Backend (Roadmap):** API em .NET 10 Minimal APIs, persistência com EF Core e PostgreSQL, com concorrência segura e tempo real.
+- 👉 **[Ver demonstração ao vivo na Vercel](https://navalha-theta.vercel.app/)** • **[Explorar código no repositório](https://github.com/HgrXKPT/navalha)**
+
+---
+
+### ⚡ Destaques de Impacto & Engenharia
+
+- **Performance em Produção:** Otimização de consulta crítica no SQL Server com EF Core, reduzindo tempo de resposta de **13s para 82ms (~99,4% de ganho)** em ambiente corporativo.
+- **Sistemas Distribuídos:** Experiência prática na manutenção e evolução de microsserviços integrados a **15+ parceiros financeiros**, com mensageria via RabbitMQ e cache em Redis.
+- **Qualidade & Filosofia:** Código limpo com Lógica Plana e Fail-Fast (Guard Clauses), domínio rico desacoplado e Segundo Cérebro mantido no **Obsidian** para documentação técnica contínua.
+
+---
+
+### 🛠️ Core Stack
+
+<div align="center">
+
+| Camada | Tecnologias Principais |
 | :--- | :--- |
-| **Frontend** | React 19, TypeScript (Strict), Vite, Next.js, CSS Modules, Tailwind CSS |
-| **Qualidade Frontend** | Vitest, React Testing Library, Playwright (E2E), axe-core (A11y), Prettier, oxlint |
-| **Backend** | C#, .NET 10, ASP.NET Core, Minimal APIs, Clean Architecture, DDD, CQRS, MediatR |
-| **Testes Backend** | xUnit, NSubstitute, Moq |
-| **Banco & Cache** | SQL Server, PostgreSQL, Redis, Entity Framework Core |
-| **Infra & DevOps** | Docker, Docker Compose, RabbitMQ, GitHub Actions (CI/CD), Git, Vercel |
+| **Frontend** | ![React](https://img.shields.io/badge/React_19-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white) ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white) ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white) ![Tailwind](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white) |
+| **Backend** | ![C#](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=c-sharp&logoColor=white) ![.NET](https://img.shields.io/badge/.NET_10-512BD4?style=flat-square&logo=dotnet&logoColor=white) ![ASP.NET Core](https://img.shields.io/badge/ASP.NET_Core-512BD4?style=flat-square&logo=dotnet&logoColor=white) ![Clean Arch](https://img.shields.io/badge/Clean_Architecture-0f172a?style=flat-square) ![DDD](https://img.shields.io/badge/DDD-1e293b?style=flat-square) |
+| **Qualidade & Testes** | ![Playwright](https://img.shields.io/badge/Playwright-45ba4b?style=flat-square&logo=playwright&logoColor=white) ![Vitest](https://img.shields.io/badge/Vitest-6E9F18?style=flat-square&logo=vitest&logoColor=white) ![Testing Library](https://img.shields.io/badge/Testing_Library-E33332?style=flat-square&logo=testing-library&logoColor=white) ![xUnit](https://img.shields.io/badge/xUnit-512BD4?style=flat-square) ![A11y](https://img.shields.io/badge/WCAG_2.1_AA-1F2937?style=flat-square) |
+| **Dados & DevOps** | ![SQL Server](https://img.shields.io/badge/SQL_Server-CC292B?style=flat-square&logo=microsoft-sql-server&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white) ![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=flat-square&logo=rabbitmq&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white) |
+
+</div>
 
 ---
 
-### 📬 Contato
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=HgrXKPT&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117" alt="GitHub Stats" height="140" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=HgrXKPT&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117" alt="Top Languages" height="140" />
+</div>
 
-- **LinkedIn:** [linkedin.com/in/higor-estevao](https://www.linkedin.com/in/higor-estevao/)
-- **Email:** [contatohigorestevao@gmail.com](mailto:contatohigorestevao@gmail.com)
+<br/>
+
+<div align="center">
+  <sub>Betim, MG • Brasil</sub>
+</div>
