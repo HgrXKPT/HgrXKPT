@@ -3,47 +3,68 @@
 # Higor Estevão
 ### Software Developer • C# / .NET 10 & React 19
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/higor-estevao/)
-[![Live Demo - Navalha](https://img.shields.io/badge/Demo-Navalha-22c55e?style=for-the-badge&logo=vercel&logoColor=white)](https://navalha-theta.vercel.app/)
+[![Demo Navalha](https://img.shields.io/badge/Demo_ao_Vivo-Navalha-22c55e?style=for-the-badge&logo=vercel&logoColor=white)](https://navalha-theta.vercel.app/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/higor-estevao/)
 [![Email](https://img.shields.io/badge/Email-higorestevao02%40hotmail.com-18181b?style=for-the-badge&logo=gmail&logoColor=white)](mailto:higorestevao02@hotmail.com)
 
 <br/>
 
 <p align="center">
-  <b>Engenharia de software moderna com foco em performance e escala:</b><br/>
-  Microsserviços distribuídos e mensageria no backend (<strong>.NET 10 / C#</strong>) aliados a interfaces dinâmicas, tipadas e orientadas a produto no frontend (<strong>React 19 / TypeScript</strong>).
+  <b>Engenharia de software moderna orientada a produto, escala e acessibilidade.</b><br/>
+  Microsserviços distribuídos e mensageria no backend (<strong>.NET 10 / C#</strong>) aliados a interfaces rápidas, acessíveis e tipadas no frontend (<strong>React 19 / TypeScript</strong>).
 </p>
 
 </div>
 
 ---
 
-### ⚡ Destaque de Portfólio: Projeto Navalha
+### 🍱 Visão Rápida
 
-<div align="center">
-  <a href="https://navalha-theta.vercel.app/">
-    <img src="https://img.shields.io/badge/Status-Em%20Desenvolvimento%20Ativo-22c55e?style=flat-square&logo=git&logoColor=white" />
-    <img src="https://img.shields.io/badge/Frontend-React%2019%20%2B%20TypeScript-61DAFB?style=flat-square&logo=react&logoColor=black" />
-    <img src="https://img.shields.io/badge/Backend%20Roadmap-.NET%2010%20%2B%20PostgreSQL-512BD4?style=flat-square&logo=dotnet&logoColor=white" />
-    <img src="https://img.shields.io/badge/Qualidade-Playwright%20%2B%20Vitest%20%2B%20axe--core-45ba4b?style=flat-square&logo=playwright&logoColor=white" />
-  </a>
-</div>
+<table width="100%">
+  <tr>
+    <td width="50%" valign="top">
+      <h3>👨‍💻 Sobre mim</h3>
+      <p>Desenvolvedor de software com experiência no ciclo completo de desenvolvimento web e sistemas distribuídos.</p>
+      <ul>
+        <li><strong>Backend:</strong> Microsserviços em <code>.NET 10</code>, mensageria com RabbitMQ, Clean Architecture, DDD, CQRS e otimização de bancos relacionais.</li>
+        <li><strong>Frontend:</strong> <code>React 19</code>, TypeScript strict, Vite, testes automatizados (Vitest, Testing Library, Playwright) e acessibilidade (WCAG 2.1 AA via <code>axe-core</code>).</li>
+        <li><strong>Produção:</strong> Experiência corporativa real em fluxos financeiros e devoluções para grandes operações de varejo.</li>
+      </ul>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🚀 Atualmente Construindo</h3>
+      <h4><a href="https://github.com/HgrXKPT/navalha">Navalha — Agendamento para Barbearias</a></h4>
+      <p>Aplicação moderna desenvolvida por tickets de produto, do design tokens à Vercel com CI/CD contínuo.</p>
+      <p>
+        <img src="https://img.shields.io/badge/React%2019-20232A?style=flat-square&logo=react&logoColor=61DAFB" />
+        <img src="https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white" />
+        <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white" />
+        <img src="https://img.shields.io/badge/Playwright-45ba4b?style=flat-square&logo=playwright&logoColor=white" />
+        <img src="https://img.shields.io/badge/.NET%2010-512BD4?style=flat-square&logo=dotnet&logoColor=white" />
+      </p>
+      <p>👉 <strong><a href="https://navalha-theta.vercel.app/">Acessar demonstração ao vivo</a></strong></p>
+    </td>
+  </tr>
+</table>
 
-<br/>
+---
 
-**[Navalha](https://github.com/HgrXKPT/navalha)** é uma plataforma de agendamento online e painel operacional para barbearias, concebida sob os padrões de um produto real: backlog orientado a tickets, revisões criteriosas por pull request, automação de testes e deploy contínuo.
+### 💈 Projeto em Destaque: Navalha
 
-- 🎨 **Frontend Moderno:** Desenvolvido em **React 19** com **TypeScript estrito**, build veloz via **Vite** e estilização desacoplada com **CSS Modules**.
-- 🧪 **Rigor de Qualidade & Acessibilidade:** Testes unitários com **Vitest** e **Testing Library**; suíte E2E com **Playwright** integrada a validação contínua de acessibilidade (**axe-core**) para conformidade WCAG 2.1 AA.
-- ⚙️ **Evolução Fullstack:** Planejado com API em **.NET 10 Minimal APIs**, persistência com **EF Core & PostgreSQL**, tratamento de concorrência contra agendamentos simultâneos e atualização em tempo real.
-- 🚀 **Demonstração Online:** Aplicação publicada na Vercel: [navalha-theta.vercel.app](https://navalha-theta.vercel.app/)
+> **Sistema de agendamento online e painel operacional para barbearias.**  
+> Desenvolvido com padrão de engenharia de produto: cada funcionalidade nasce em um ticket no backlog, é coberta por testes automatizados, passa por code review e é validada em pipeline de CI antes do deploy contínuo.
 
-#### 📍 Matriz de Evolução por Marcos (Roadmap)
+- 🎨 **Frontend de Alta Performance:** Construído em **React 19** com **TypeScript estrito**, build ultrarrápido com **Vite** e isolamento estilístico via **CSS Modules**.
+- 🧪 **Qualidade Contínua & Acessibilidade:** Testes unitários com **Vitest** e **Testing Library**; suíte E2E com **Playwright** integrada a auditoria de acessibilidade contínua (**axe-core**) para garantia estrita de conformidade WCAG 2.1 AA.
+- ⚙️ **Evolução Fullstack:** Planejado para integrar API em **.NET 10 Minimal APIs**, persistência em **PostgreSQL com EF Core**, locks para prevenir *double-booking* e sincronização em tempo real via WebSockets.
+- 🔗 **Repositório:** [github.com/HgrXKPT/navalha](https://github.com/HgrXKPT/navalha) • **Demo:** [navalha-theta.vercel.app](https://navalha-theta.vercel.app/)
+
+#### 📍 Roadmap de Marcos do Navalha
 | Marco | Entrega Técnica | Stack & Validação | Status |
 | :---: | :--- | :--- | :---: |
 | **M-0** | Repositório base, pipeline de CI/CD e deploy contínuo | GitHub Actions + Vercel | `🟢 Concluído` |
 | **M-1** | Site público responsivo, semântico e acessível | React 19, CSS Modules, axe | `🟢 Concluído` |
-| **M-2** | Fluxo de agendamento no front em 5 etapas interativas | TypeScript Strict + State Machine | `🟡 Em Andamento` |
+| **M-2** | Fluxo de agendamento guiado no front em 5 etapas | TypeScript Strict + State Machine | `🟡 Em Andamento` |
 | **M-3** | Backend completo com persistência e regras de reserva | .NET 10 Minimal API + PostgreSQL | `⚪ Próximo` |
 | **M-4** | Painel do proprietário com autenticação e filtros de URL | Dashboard + CRUDs + Auth | `⚪ Planejado` |
 | **M-5** | Resiliência, locks de concorrência e tempo real | WebSockets / SignalR + Resiliência | `⚪ Planejado` |
@@ -51,26 +72,34 @@
 
 ---
 
-### 💼 Experiência Corporativa & Impacto em Produção
+### 📊 Métricas de Produção & Princípios de Engenharia
 
-Atuação prática como **Software Developer** na **Framework Digital** (operação corporativa de alta escala — **Pague Menos**):
-
-- 🔄 **Microsserviços & Ecossistema Financeiro:** Desenvolvimento e sustentação de serviços críticos de devoluções, reembolsos e conciliação, integrados a mais de 15 adquirentes e parceiros bancários.
-- ⚡ **Otimização Extrema de Latência:** Refatoração de consultas analíticas de NFe com Entity Framework Core e SQL Server — redução do tempo de execução de **13 segundos para 82ms (~99,4% de ganho)** através de análise de planos de execução e filtros temporais mais seletivos.
-- 🛡️ **Resiliência e Mensageria:** Processamento assíncrono orientado a eventos com **RabbitMQ**, caching distribuído com **Redis** e ambientes conteinerizados com **Docker**.
+<table width="100%">
+  <tr>
+    <td width="50%" valign="top">
+      <h3>⚡ Impacto Corporativo em Produção</h3>
+      <p><em>Experiência prática na Framework Digital (operação corporativa de alta volumetria):</em></p>
+      <ul>
+        <li><strong>Redução de Latência de 13s para 82ms (~99,4%):</strong> Refatoração de consulta analítica crítica de NFe com Entity Framework Core e SQL Server mediante particionamento temporal e filtros seletivos.</li>
+        <li><strong>15+ Integrações Financeiras:</strong> Desenvolvimento e sustentação de microsserviços para devoluções e reembolsos conectados a adquirentes e parceiros bancários.</li>
+        <li><strong>Resiliência Assíncrona:</strong> Processamento desacoplado de eventos com RabbitMQ e cache de segundo nível com Redis.</li>
+      </ul>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🛡️ Princípios de Código</h3>
+      <ul>
+        <li><strong>Lógica Plana & Fail-Fast:</strong> Early returns e Guard Clauses em vez de aninhamentos condicionais profundos (<code>if/else</code> encadeados).</li>
+        <li><strong>Domínio Rico:</strong> Validações e regras de negócio encapsuladas na entidade, sem acoplamento a frameworks externos.</li>
+        <li><strong>Acessibilidade por Padrão:</strong> HTML semântico, suporte integral a teclado e testes automatizados de acessibilidade no CI.</li>
+        <li><strong>Evidência sobre Suposições:</strong> Decisões de performance guiadas por telemetria e testes de benchmark (<code>BenchmarkDotNet</code>).</li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
 ---
 
-### 🧩 Princípios de Engenharia & Filosofia de Código
-
-- **Lógica Plana & Fail-Fast:** Eliminação de aninhamentos condicionais profundos (`if/else` em cascata) em favor de Guard Clauses e retornos antecipados para preservar clareza e manutenção.
-- **Domínio Rico & Clean Architecture:** Regras de negócio auto-contidas e protegidas na camada de domínio, mantendo independência de bancos de dados ou frameworks externos.
-- **Acessibilidade como Requisito:** Desenvolvimento fundamentado em HTML semântico, navegabilidade completa por teclado e validação automatizada contra barreiras visuais ou motoras.
-- **Validação Guiada por Evidências:** Aferição de desempenho e uso de memória pautadas em métricas reais, telemetria e testes de benchmark (`BenchmarkDotNet`).
-
----
-
-### 🛠️ Stack Técnica
+### 🛠️ Stack Tecnológica
 
 <div align="center">
 
@@ -90,13 +119,7 @@ Atuação prática como **Software Developer** na **Framework Digital** (operaç
 <img src="https://img.shields.io/badge/Domain--Driven_Design-1e293b?style=for-the-badge" />
 <img src="https://img.shields.io/badge/CQRS_%26_MediatR-334155?style=for-the-badge" />
 
-#### Bancos de Dados & Cache
-<img src="https://img.shields.io/badge/SQL_Server-CC292B?style=for-the-badge&logo=microsoft-sql-server&logoColor=white" />
-<img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" />
-<img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" />
-<img src="https://img.shields.io/badge/Entity_Framework_Core-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" />
-
-#### Testes & Qualidade Contínua
+#### Qualidade, Testes & Acessibilidade
 <img src="https://img.shields.io/badge/Playwright-45ba4b?style=for-the-badge&logo=playwright&logoColor=white" />
 <img src="https://img.shields.io/badge/Vitest-6E9F18?style=for-the-badge&logo=vitest&logoColor=white" />
 <img src="https://img.shields.io/badge/Testing_Library-E33332?style=for-the-badge&logo=testing-library&logoColor=white" />
@@ -104,22 +127,23 @@ Atuação prática como **Software Developer** na **Framework Digital** (operaç
 <img src="https://img.shields.io/badge/NSubstitute-00599C?style=for-the-badge" />
 <img src="https://img.shields.io/badge/axe--core_(A11y)-1F2937?style=for-the-badge" />
 
-#### DevOps, Cloud & Mensageria
-<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+#### Bancos de Dados, Mensageria & DevOps
+<img src="https://img.shields.io/badge/SQL_Server-CC292B?style=for-the-badge&logo=microsoft-sql-server&logoColor=white" />
+<img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" />
+<img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" />
 <img src="https://img.shields.io/badge/RabbitMQ-FF6600?style=for-the-badge&logo=rabbitmq&logoColor=white" />
+<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
 <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white" />
 <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" />
-<img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white" />
 
 </div>
 
 ---
 
-### 🧠 Segundo Cérebro & Aprendizado Contínuo
+### 🧠 Segundo Cérebro & Engenharia Contínua
 
-- 📚 **Segundo Cérebro no Obsidian:** Acervo estruturado com dezenas de notas atômicas cobrindo engenharia de software distribuída, padrões de resiliência, modelagem DDD e catalogações de arquitetura.
-- ☁️ **Cloud Computing:** Trilha de aprofundamento voltada para a credencial **AWS Solutions Architect Associate**.
-- 🤖 **Engenharia Assistida por IA:** Adoção de fluxos modernos assistidos por agentes para cobertura de casos de borda, automação de testes e refinamento de código de produção.
+- 📚 **Obsidian PKM:** Gestão de conhecimento com dezenas de notas atômicas estruturadas cobrindo arquitetura de microsserviços, padrões de resiliência (Polly, Circuit Breaker), taxonomia GoF e engenharia de software distribuída.
+- 🤖 **Engenharia Assistida por IA:** Uso deliberado de agentes de IA em pair programming para análise de cenários de borda, criação de fixtures de testes e aceleração de entregas de código sem comprometer a integridade arquitetural.
 
 ---
 
@@ -131,5 +155,5 @@ Atuação prática como **Software Developer** na **Framework Digital** (operaç
 <br/>
 
 <div align="center">
-  <sub>Construído com foco em engenharia, performance e design consistente. • Betim, MG - Brasil</sub>
+  <sub>Construído com foco em engenharia de produto, performance e acessibilidade. • Betim, MG - Brasil</sub>
 </div>
