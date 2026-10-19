@@ -19,24 +19,24 @@
 
 ---
 
-### 🚀 Projeto em Destaque: [Navalha](https://github.com/HgrXKPT/navalha)
+### 🚀 Projeto em Destaque: [Navalha — Painel Fullstack](https://github.com/HgrXKPT/navalha)
 
 <div align="center">
   <a href="https://navalha-theta.vercel.app/">
-    <img src="https://img.shields.io/badge/Status-Em%20Construção-22c55e?style=flat-square&logo=git&logoColor=white" />
-    <img src="https://img.shields.io/badge/Frontend-React%2019%20%7C%20TypeScript-61DAFB?style=flat-square&logo=react&logoColor=black" />
-    <img src="https://img.shields.io/badge/E2E-Playwright%20%2B%20axe--core-45ba4b?style=flat-square&logo=playwright&logoColor=white" />
-    <img src="https://img.shields.io/badge/Backend%20Roadmap-.NET%2010%20%7C%20PostgreSQL-512BD4?style=flat-square&logo=dotnet&logoColor=white" />
+    <img src="https://img.shields.io/badge/Deploy-Vercel-22c55e?style=flat-square&logo=vercel&logoColor=white" />
+    <img src="https://img.shields.io/badge/Frontend-React%2019%20%7C%20TypeScript%20Strict-61DAFB?style=flat-square&logo=react&logoColor=black" />
+    <img src="https://img.shields.io/badge/Backend-.NET%2010%20%7C%20Clean%20Architecture-512BD4?style=flat-square&logo=dotnet&logoColor=white" />
+    <img src="https://img.shields.io/badge/Arquitetura-11%20ADRs%20Documentados-f59e0b?style=flat-square" />
   </a>
 </div>
 
 <br/>
 
-Plataforma de agendamento online e gestão para barbearias, desenvolvida com dinâmica de produto real (backlog por tickets, branch protection, CI contínuo e deploy automático).
+Plataforma de gestão operacional e agendamento para barbearias, desenvolvida com foco em **decisões de engenharia de ponta a ponta** (fronteira front↔back, estado derivado, concorrência otimista e arquitetura desacoplada).
 
-- **Frontend:** React 19, TypeScript estrito, Vite, CSS Modules e Tailwind CSS.
-- **Qualidade & Acessibilidade:** Testes unitários com Vitest e testes E2E com Playwright integrados à validação de acessibilidade contínua (`axe-core` para conformidade WCAG 2.1 AA).
-- **Backend (Roadmap):** API em .NET 10 Minimal APIs, persistência com EF Core e PostgreSQL, com concorrência segura e tempo real.
+- **Frontend:** React 19, TypeScript estrito, Vite 8, CSS Modules e design tokens.
+- **Backend:** .NET 10 Minimal APIs com Clean Architecture (`Domain`, `Application`, `Infrastructure`, `Api`), entidade rica com proteção de invariantes, tratamento padronizado com `RFC 9457 ProblemDetails` e testes unitários em xUnit.
+- **Engenharia & Resiliência:** Concorrência otimista com `ETag` (`If-Match` / `412 Precondition Failed`), tempo real com SignalR e histórico formal de decisões em **ADRs** (*Architecture Decision Records*).
 - 👉 **[Ver demonstração ao vivo na Vercel](https://navalha-theta.vercel.app/)** • **[Explorar código no repositório](https://github.com/HgrXKPT/navalha)**
 
 ---
